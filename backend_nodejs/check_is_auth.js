@@ -5,8 +5,8 @@
     If the response is 401, the user is redirected to the login page.
 */
 function check_is_auth(req, res) {
-    console.log("Session expires:", req.session?.cookie?.expires);
-    console.log("Session maxAge:", req.session?.cookie?.maxAge);
+    //console.log("Session expires:", req.session?.cookie?.expires);
+    //console.log("Session maxAge:", req.session?.cookie?.maxAge);
     if (req.session && req.session.id_user) {
         return true;
     }
