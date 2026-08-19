@@ -105,11 +105,10 @@ Vite will provide the local URL in the terminal, usually:
 http://localhost:5173
 ```
 
-## Demo Account
-The database includes a demo user:
+## Authentication
+The application includes JWT-based authentication.
+A demo account is included in the seed database:
 ```text
 Username: admin
 Password: cielito!1984
 ```
-
-The password is stored as a bcrypt hash in the database dump.
