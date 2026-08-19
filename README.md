@@ -161,6 +161,7 @@ The database includes a demo user:
 
 ```text
 Username: admin
+Password: cielito!1984
 ```
 
 The password is stored as a bcrypt hash in the database dump.
