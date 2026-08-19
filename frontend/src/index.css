@@ -1,0 +1,362 @@
+@import "tailwindcss";
+
+.login-page {
+  @apply flex min-h-screen items-center justify-center bg-slate-100 px-4;
+}
+
+.login-card {
+  @apply w-full max-w-md rounded-xl border border-slate-200 bg-white p-8 shadow-lg;
+}
+
+.login-title {
+  @apply mb-6 text-center text-3xl font-bold text-slate-800;
+}
+
+.login-field {
+  @apply mb-4;
+}
+
+.login-field input {
+  @apply w-full rounded-md border border-slate-300 bg-white
+         px-4 py-3 text-sm text-slate-700
+         outline-none transition
+         placeholder:text-slate-400
+         focus:border-blue-600
+         focus:ring-2 focus:ring-blue-100;
+}
+
+.login-button {
+  @apply mt-2 w-full rounded-full bg-blue-700 px-5 py-3
+         text-sm font-semibold text-white
+         cursor-pointer transition
+         hover:bg-blue-800;
+}
+
+.login-message {
+  @apply mt-4 text-center text-sm text-slate-600;
+}
+
+.sub-menu {
+  display: flex;
+  gap: 1rem;
+  margin-top:10px;
+}
+
+.sub-menu button {
+  @apply flex items-center gap-2 rounded-md bg-indigo-50 px-4 py-2 text-sm font-medium text-indigo-600 cursor-pointer border border-black;
+}
+
+.navHeaderButtonsClass{
+  @apply flex items-center gap-3 rounded-lg bg-indigo-50 px-6 py-3 text-lg font-medium text-indigo-700 cursor-pointer border border-black
+}
+
+.pagemaster{
+  @apply p-[10px] m-[10px];
+}
+
+.pagemaster_titolo{
+  @apply p-2 mb-6 text-2xl font-bold text-slate-900 pt-6;
+}
+
+.search-table {
+  @apply w-full rounded-xl border border-slate-200 bg-white overflow-hidden;
+}
+
+.search-table td {
+  @apply px-4 py-3;
+}
+
+.search-table tr:first-child {
+  @apply bg-slate-50;
+}
+
+.search-table tr:first-child td {
+  @apply text-sm font-medium text-slate-600;
+}
+
+.search-table tr:last-child td {
+  @apply border-t border-slate-200;
+}
+
+.search-table input,
+.search-table select {
+  @apply w-full rounded-md border border-slate-300 bg-white
+         px-3 py-2 text-sm text-slate-700
+         outline-none
+         focus:border-indigo-500
+         focus:ring-2 focus:ring-indigo-100;
+}
+.search-table .budget-filter {
+  @apply flex items-center gap-2;
+}
+.search-table .budget-filter input {
+  @apply w-30;
+}
+
+
+.results-table {
+  @apply w-full rounded-xl border border-slate-300 bg-white overflow-hidden;
+}
+
+.results-table thead {
+  @apply bg-slate-700 text-white;
+}
+
+.results-table th {
+  @apply px-4 py-3 text-left text-sm font-semibold border-r border-slate-600;
+}
+
+.results-table td {
+  @apply border-t border-r border-slate-200 px-4 py-3 text-sm text-slate-700;
+}
+
+.results-table th:last-child,
+.results-table td:last-child {
+  @apply border-r-0;
+}
+
+.results-table tbody tr:nth-child(even) {
+  @apply bg-slate-50;
+}
+
+.results-table tbody tr:hover {
+  @apply bg-slate-100;
+}
+
+.btn-add {
+  @apply flex items-center gap-2 rounded-full bg-green-600 px-5 py-2
+         text-sm font-medium text-white cursor-pointer
+         hover:bg-green-700;
+}
+
+.btn-edit {
+  @apply flex items-center gap-2 rounded-full bg-blue-500 px-5 py-2
+         text-sm font-medium text-white cursor-pointer
+         hover:bg-blue-600;
+}
+
+.btn-delete {
+  @apply flex items-center gap-2 rounded-full bg-red-600 px-5 py-2
+         text-sm font-medium text-white cursor-pointer
+         hover:bg-red-700;
+}
+
+
+.project-form-table {
+  @apply w-full rounded-xl border border-slate-300 bg-white overflow-hidden;
+}
+
+.project-form-table thead {
+  @apply bg-slate-700 text-white;
+}
+
+.project-form-table th {
+  @apply border-r border-slate-600
+         px-4 py-3 text-left text-sm font-semibold whitespace-nowrap;
+}
+
+.project-form-table td {
+  @apply border-t border-r border-slate-200
+         px-3 py-3 align-top whitespace-nowrap;
+}
+
+/* Remove the border from the last column */
+.project-form-table th:last-child,
+.project-form-table td:last-child {
+  @apply border-r-0;
+}
+
+.project-form-table tbody tr {
+  @apply bg-white;
+}
+
+.project-form-table input,
+.project-form-table select,
+.project-form-table textarea {
+  @apply w-full rounded-md border border-slate-300 bg-white
+         px-3 py-2 text-sm text-slate-700
+         outline-none transition
+         focus:border-indigo-500
+         focus:ring-2 focus:ring-indigo-100;
+}
+
+.project-form-table textarea {
+  @apply min-h-[200px] min-w-[450px] resize-y;
+}
+
+.project-form-table input[type="number"] {
+  @apply min-w-[120px];
+}
+
+.toast-message {
+  @apply fixed top-5 right-5 z-[9999]
+         rounded-lg border border-green-200
+         bg-green-50
+         px-5 py-3
+         text-sm font-medium text-slate-800
+         shadow-md;
+}
+
+.react-datepicker {
+  font-family: inherit;
+  @apply overflow-hidden rounded-[10px] border border-slate-200 shadow-xl;
+}
+
+.react-datepicker__header {
+  @apply border-b-0 bg-blue-700 pt-3;
+}
+
+.react-datepicker__current-month {
+  @apply font-semibold text-white;
+}
+
+.react-datepicker__day-name {
+  @apply font-bold;
+}
+
+.react-datepicker__day {
+  @apply m-[3px] rounded-md;
+}
+
+.react-datepicker__day:hover {
+  @apply bg-blue-50;
+}
+
+.react-datepicker__day--selected {
+  @apply bg-blue-700 text-white;
+}
+
+.react-datepicker__day--selected:hover {
+  @apply bg-blue-800;
+}
+
+.react-datepicker__day--today {
+  @apply border border-blue-700 font-bold;
+}
+
+.react-datepicker__navigation {
+  @apply top-[10px];
+}
+
+.table-options {
+  @apply flex items-center gap-2;
+}
+
+
+
+
+
+/* Mobile search table*/
+@media (max-width: 800px) {
+  .search-table,
+  .search-table tbody,
+  .search-table tr,
+  .search-table td {
+    @apply block w-full;
+  }
+
+  .search-table tr:first-child {
+    @apply hidden;
+  }
+
+  .search-table tr:last-child {
+    @apply border-0;
+  }
+
+  .search-table tr:last-child td {
+    @apply border-0 px-4 py-2;
+  }
+
+  .search-table tr:last-child td::before {
+    content: attr(data-label);
+    @apply mb-1 block text-sm font-medium text-slate-600;
+  }
+
+  .search-table .budget-filter input {
+    @apply w-full;
+  }
+}
+
+
+
+/* Mobile result project table */
+@media (max-width: 960px) {
+  .results-table {
+    @apply block border-0 bg-transparent;
+  }
+
+  .results-table thead {
+    @apply hidden;
+  }
+
+  .results-table tbody {
+    @apply block space-y-4;
+  }
+
+  .results-table tbody tr {
+    @apply block rounded-xl border border-slate-300 bg-white p-4;
+  }
+
+  .results-table tbody tr:nth-child(even),
+  .results-table tbody tr:hover {
+    @apply bg-white;
+  }
+
+  .results-table td {
+    @apply block border-0 p-0;
+  }
+
+  .results-table td::before {
+    content: attr(data-label);
+    @apply mb-1 block text-sm font-bold text-slate-600;
+  }
+
+  .results-table td + td {
+    @apply mt-4;
+  }
+
+  .project-form-table,
+  .project-form-table tbody,
+  .project-form-table tr,
+  .project-form-table td {
+    @apply block w-full;
+  }
+
+  .project-form-table {
+    @apply border-0 bg-transparent;
+  }
+
+  .project-form-table thead {
+    @apply hidden;
+  }
+
+  .project-form-table tbody {
+    @apply space-y-4;
+  }
+
+  .project-form-table tbody tr {
+    @apply rounded-xl border border-slate-300 bg-white p-4;
+  }
+
+  .project-form-table td {
+    @apply border-0 p-0 whitespace-normal;
+  }
+
+  .project-form-table td + td {
+    @apply mt-4;
+  }
+
+  .project-form-table td::before {
+    content: attr(data-label);
+    @apply mb-1 block text-sm font-bold text-slate-600;
+  }
+
+  /* Remove desktop minimum widths */
+  .project-form-table input[type="number"] {
+    @apply min-w-0;
+  }
+
+  .project-form-table textarea {
+    @apply min-h-[160px] min-w-0 w-full;
+  }
+}
