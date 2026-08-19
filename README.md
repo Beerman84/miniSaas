@@ -28,11 +28,13 @@ Before running the application, make sure you have installed:
 * npm
 * PostgreSQL
 
+
 ## 1. Clone the Repository
 ```bash
 git clone YOUR_GITHUB_REPOSITORY_URL
 cd YOUR_PROJECT_FOLDER
 ```
+
 
 ## 2. Set Up the Database
 Create a PostgreSQL database called:
@@ -47,8 +49,8 @@ Then import the SQL dump included in the repository:
 database/miniSaas.sql
 ```
 
-## 3. Configure the Backend
 
+## 3. Configure the Backend
 Open:
 ```text
 backend_nodejs/db.js
@@ -68,6 +70,7 @@ Port: 5432
 Database: miniSaas
 ```
 
+
 ## 4. Install Backend Dependencies
 Open a terminal in the backend directory:
 ```bash
@@ -75,11 +78,13 @@ cd backend_nodejs
 npm install
 ```
 
+
 ## 5. Start the Backend
 From the `backend_nodejs` directory:
 ```bash
 npm start
 ```
+
 
 ## 6. Install Frontend Dependencies
 Open another terminal:
@@ -87,6 +92,7 @@ Open another terminal:
 cd frontend
 npm install
 ```
+
 
 ## 7. Start the Frontend
 From the `frontend` directory:
