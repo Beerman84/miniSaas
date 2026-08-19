@@ -18,7 +18,6 @@ The application allows users to manage projects and team members, assign team me
 * Node.js
 * Express.js
 * PostgreSQL
-* `pg`
 * CORS
 
 ### Database
