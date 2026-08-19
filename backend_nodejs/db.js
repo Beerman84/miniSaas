@@ -3,8 +3,8 @@ const pool = new Pool({
     host: "localhost",
     port: 5432,
     database: "miniSaas",
-    user: "YOURPASSWORD",
-    password: "YOURPASSWORD"
+    user: "YOUR_USERNAME",
+    password: "YOUR_PASSWORD"
 });
 
 module.exports = pool;
