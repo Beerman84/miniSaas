@@ -141,17 +141,6 @@ Password: cielito!1984
 ```
 
 This account is provided for demonstration and testing purposes.
-
-## Future Development
-
-The current project provides the core functionality required for a project management SaaS dashboard, while leaving room for further development.
-
-Potential future improvements include:
-
-* Advanced user roles and permissions
-* More detailed reporting and analytics
-* Project activity history
-* Notifications and reminders
 * File and document management
 * Additional dashboard metrics
 * External service integrations
