@@ -141,7 +141,3 @@ Password: cielito!1984
 ```
 
 This account is provided for demonstration and testing purposes.
-* File and document management
-* Additional dashboard metrics
-* External service integrations
-* Deployment to a cloud environment
